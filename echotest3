@@ -1,0 +1,10 @@
+#!/bin/bash
+usr_date=$1
+
+echo $usr_date;
+
+new_date=$(date -d"$1" +'%F %T')
+
+echo $new_date;
+
+
